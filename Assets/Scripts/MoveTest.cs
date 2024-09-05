@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class MoveTest : MonoBehaviour
 {
-    publuc Transform MoveOffset;
+    public Vector3 MoveOffset;
+    public Vector3 SpeedOffset
 }
