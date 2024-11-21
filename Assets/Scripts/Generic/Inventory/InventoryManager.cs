@@ -20,6 +20,10 @@ public class InventoryManager : MonoBehaviour
         playerInventory.AddItem(new CraftingMaterial("Herb", 201));         // ID 201 : 약초
         playerInventory.AddItem(new CraftingMaterial("Herb", 201));         // ID 201 : 약초
         playerInventory.AddItem(new CraftingMaterial("Water", 202));        // ID 202 : 물
+
+        playerInventory.AddItem(new CraftingMaterial("Herb", 201));         // ID 201 : 약초
+        playerInventory.AddItem(new CraftingMaterial("Herb", 201));         // ID 201 : 약초
+        playerInventory.AddItem(new CraftingMaterial("Water", 202));        // ID 202 : 물
     }
 
     // 인벤토리 접근자 메서드 추가
